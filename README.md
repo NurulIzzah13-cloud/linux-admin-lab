@@ -1,18 +1,22 @@
-# Linux Admin Lab
+# Linux Admin Lab v2.0
 
-Website simulasi interaktif untuk 15 materi praktikum Modul Latihan 3 Sistem Operasi Linux.
+Web simulator for Modul Latihan 3 (15 topics) aligned with the UAS document's **Tugas** statements. Users click each step in sequence; the terminal displays **illustrative** output only. This does not execute Linux commands or verify real completion.
 
-## Jalankan lokal
+## Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Deploy ke Vercel
+## Deploy to Vercel
 
-Unggah proyek ini ke GitHub. Pada Vercel pilih Add New > Project > Import Git Repository. Framework Preset: Vite, Build Command: `npm run build`, Output Directory: `dist`. Lalu Deploy.
+Framework preset: Vite. Build command: `npm run build`. Output directory: `dist`. Root directory: `./`.
 
-## Penting
+## Replacing v1
 
-Ini **simulator**, bukan lingkungan Linux nyata. Tidak ada perintah `sudo`, Docker, firewall, disk mount, atau SSH yang benar-benar dijalankan. Output adalah data contoh untuk latihan dan harus dilabeli sebagai simulasi dalam laporan. State simulasi disederhanakan dan sebagian perintah menampilkan respons contoh generik.
+Back up the existing GitHub repository, then upload the five project files to the repository root, overwriting the old files. Vercel will redeploy from the connected main branch.
+
+## Notes
+
+The UAS document has explicit 'Tugas' statements for topics 1–6 and 8–10; the remaining topics have commands but no standalone 'Tugas' statement. Additional technical steps are included where needed (such as mkfs.ext4). IPs and all outputs are illustrative. A real Linux VM is required if the instructor requires proof of execution.
