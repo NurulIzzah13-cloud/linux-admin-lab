@@ -20,3 +20,7 @@ Back up the existing GitHub repository, then upload the five project files to th
 ## Notes
 
 The UAS document has explicit 'Tugas' statements for topics 1–6 and 8–10; the remaining topics have commands but no standalone 'Tugas' statement. Additional technical steps are included where needed (such as mkfs.ext4). IPs and all outputs are illustrative. A real Linux VM is required if the instructor requires proof of execution.
+
+
+## Tema Royal Blue
+Warna antarmuka diperbarui ke Royal Blue dan Dark Navy. Alur simulasi 15 praktikum tidak diubah.
